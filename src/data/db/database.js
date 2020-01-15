@@ -50,15 +50,11 @@ const database = {
       content: "Waiting for letter",
       author: {
         name: 'Kevin Fauth',
-        designation: "Bootcamp Teacher's Assistant"
+        designation: "Bootcamp Teacher Assistant"
       }
     }
   ],
   skills: [
-    {
-      title: "HTML5",
-      value: 95
-    },
     {
       title: "Javascript",
       value: 85
@@ -69,8 +65,17 @@ const database = {
     },
     {
       title: "ReactJS",
+      value: 90
+    },
+    {
+      title: "MongoDB with Mongoose",
       value: 80
     },
+    {
+      title: "SQL with Sequelize",
+      value: 65
+    },
+
     {
       title: "Thinking these skill bar things are dumb",
       value: 250
@@ -99,7 +104,7 @@ const database = {
     {
       id: 3,
       title: "Starwars RPG",
-      subtitle: "Mern Stack app. Form study groups with other people in your area.",
+      subtitle: "An text based, extended universe Starwars themed, fighting RPG using jquery.",
       imageUrl: "/images/starwars.png",
       largeImageUrl: ["/images/starwars.png"],
       url: 'https://lardiangh.github.io/unit-4-game/'
