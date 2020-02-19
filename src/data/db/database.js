@@ -23,7 +23,7 @@ const database = {
     brandImage: '/images/zb-logo.jpg',
     aboutImage: '/images/myself.jpg',
     aboutImageLg: '/images/myself.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/files/Zion-resume.pdf'
   },
   services: [
     
@@ -31,25 +31,9 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "Waiting for letter",
+      content: "Zion is an extremely talented individual and challenges himself to apply technical concepts very quickly. As one of Zion's teaching assistants during the UNC Charlotte Coding Bootcamp, I saw him excel at the course's activities, homework assignments and three group projects. He always submitted high-quality code and web applications, asked compelling questions during class and added additional requirements to his applications in order to further solidify his knowledge. He also collaborated well with the other students and exhibited a natural curiosity about the material. Zion worked very hard in this program and provided himself an excellent foundation for the start of his technical career. I know he will be a top-performing software developer no matter where he works.",
       author: {
-        name: 'Darin Boesch',
-        designation: 'Bootcamp Instructor'
-      }
-    },
-    {
-      id: 2,
-      content: "Waiting for letter",
-      author: {
-        name: 'Kevin Fauth',
-        designation: 'Bootcamp Instructor'
-      }
-    },
-    {
-      id: 3,
-      content: "Waiting for letter",
-      author: {
-        name: 'Kevin Fauth',
+        name: 'Emily Armstrong',
         designation: "Bootcamp Teacher Assistant"
       }
     }
@@ -74,11 +58,6 @@ const database = {
     {
       title: "SQL with Sequelize",
       value: 65
-    },
-
-    {
-      title: "Thinking these skill bar things are dumb",
-      value: 250
     }
   ],
   portfolios: [
@@ -108,6 +87,14 @@ const database = {
       imageUrl: "/images/starwars.png",
       largeImageUrl: ["/images/starwars.png"],
       url: 'https://lardiangh.github.io/unit-4-game/'
+    },
+    {
+      id: 4,
+      title: "Sound-Community",
+      subtitle: "Mern Stack app in progress, An online community-driven soundboard. Not deployed yet",
+      imageUrl: "/images/sc-browse.png",
+      largeImageUrl: ["/images/sc-browse.png"],
+      url: 'https://github.com/LardianGH/sound-community'
     }
   ],
   experience: {

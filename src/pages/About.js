@@ -82,12 +82,10 @@ function About(){
             <div className="col-lg-6">
               <div className="mi-about-content">
                 <h3>
-                  I am <span className="color-theme">{information.name}</span>
+                  My name is <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more & more
-                  interactive with web animations.
+                  
                 </p>
                 <ul>
                   {!information.name ? null : <li>
@@ -115,7 +113,7 @@ function About(){
                     <b>Freelance</b> {information.freelanceStatus}
                   </li>}
                 </ul>
-                <a href={information.cvfile} className="mi-button">Download CV</a>
+                <a href={information.cvfile} className="mi-button">Download Resume</a>
               </div>
             </div>
           </div>
