@@ -9,13 +9,14 @@ const database = {
     nationality: 'American',
     language: 'English',
     email: 'zabs95@gmail.com',
-    address: '8001 Ponderosa Pine Lane, Charlotte, NC',
+    address: 'Charlotte, NC',
     freelanceStatus: '',
     socialLinks: {
       facebook: '',
       twitter: '',
       pinterest: '',
       behance: '',
+      instagram: 'https://www.instagram.com/reboot_assigned/',
       linkedin: 'https://www.linkedin.com/in/zion-brown-2559b793/',
       dribbble: '',
       github: 'https://github.com/LardianGH'
@@ -41,23 +42,23 @@ const database = {
   skills: [
     {
       title: "Javascript",
-      value: 85
+      value: "intermediate"
     },
     {
       title: "jQuery",
-      value: 85
+      value: "intermediate"
     },
     {
       title: "ReactJS",
-      value: 90
+      value: "intermediate"
     },
     {
       title: "MongoDB with Mongoose",
-      value: 80
+      value: "intermediate"
     },
     {
       title: "SQL with Sequelize",
-      value: 65
+      value: "novice"
     }
   ],
   portfolios: [
@@ -91,7 +92,7 @@ const database = {
     {
       id: 4,
       title: "Sound-Community",
-      subtitle: "Mern Stack app in progress, An online community-driven soundboard. Not deployed yet",
+      subtitle: "Mern Stack app in progress, An online community-driven soundboard.",
       imageUrl: "/images/sc-browse.png",
       largeImageUrl: ["/images/sc-browse.png"],
       url: 'https://github.com/LardianGH/sound-community'

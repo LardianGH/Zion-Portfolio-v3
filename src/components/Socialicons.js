@@ -34,6 +34,11 @@ function Socialicons(props){
           <LineIcon name="behance"/>
         </a>
       </li>}
+      {!socialLinks.instagram ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.instagram}>
+          <LineIcon name="instagram"/>
+        </a>
+      </li>}
       {!socialLinks.linkedin ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.linkedin}>
           <LineIcon name="linkedin"/>

@@ -32,8 +32,8 @@ function Header(){
                 <ul className="mi-header-menu">
                     <li><NavLink exact to="/"><span>Home</span></NavLink></li>
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
-                    <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
-                    <li><NavLink to="/portfolios"><span>Portfolios</span></NavLink></li>
+                    <li><NavLink to="/resume"><span>Technical skills</span></NavLink></li>
+                    <li><NavLink to="/portfolios"><span>Projects</span></NavLink></li>
                 </ul>
                 <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" href="https://nuclearthemes.com">NuclearThemes</a></b></p>
             </div>
