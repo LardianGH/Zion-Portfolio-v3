@@ -68,26 +68,23 @@ const database = {
       subtitle: "Mern Stack app. Form study groups with other people in your area.",
       imageUrl: "/images/grouplearn-menu.png",
       largeImageUrl: ["/images/grouplearn-menu.png"],
-      url: 'https://grouplearn-pj3.herokuapp.com/'
+      url: 'https://github.com/LardianGH/Grouplearn'
     },
     {
       id: 2,
-      title: "Taria Bot",
-      subtitle: "A node inquirer text based assistant.",
-      imageUrl: "/images/taria-menu.png",
-      largeImageUrl: [
-        "/images/taria-menu.png",
-        "/images/taria-menu.png"
-      ],
-      url: 'https://github.com/LardianGH/taria-bot'
+      title: "Starwars RPG",
+      subtitle: "An click based, extended universe Starwars themed, fighting RPG using jquery.",
+      imageUrl: "/images/starwars.png",
+      largeImageUrl: ["/images/starwars.png"],
+      url: 'https://github.com/LardianGH/Starwars-RPG'
     },
     {
       id: 3,
-      title: "Starwars RPG",
-      subtitle: "An text based, extended universe Starwars themed, fighting RPG using jquery.",
-      imageUrl: "/images/starwars.png",
-      largeImageUrl: ["/images/starwars.png"],
-      url: 'https://lardiangh.github.io/unit-4-game/'
+      title: "Taria Bot",
+      subtitle: "A node inquirer text based assistant.",
+      imageUrl: "/images/taria-menu.png",
+      largeImageUrl: ["/images/taria-menu.png"],
+      url: 'https://github.com/LardianGH/taria-bot'
     },
     {
       id: 4,
