@@ -86,16 +86,16 @@ const database = {
       url2: 'https://lardiangh.github.io/Starwars-RPG/'
     },
     {
-      id: 3,
+      id: 4,
       title: "Taria Bot",
       subtitle: "A node inquirer text based assistant, deployment not possible but videos are available.",
       imageUrl: "/images/taria-menu.png",
       largeImageUrl: ["/images/taria-menu.png"],
       url: 'https://github.com/LardianGH/taria-bot'
     },
-   /* 
+   
    {
-      id: 4,
+      id: 3,
       title: "Sound-Community",
       subtitle: "Mern Stack app in progress, An online community-driven soundboard.",
       imageUrl: "/images/sc-browse.png",
@@ -103,7 +103,7 @@ const database = {
       url: 'https://github.com/LardianGH/sound-community',
       url2: 'https://sound-community.herokuapp.com/'
     } 
-    */
+    
   ],
   experience: {
     workingExperience: [
