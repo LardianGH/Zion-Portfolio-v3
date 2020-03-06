@@ -88,8 +88,8 @@ function About(){
                   
                 </p>
                 <ul>
-                  {!information.name ? null : <li>
-                    <b>Full Name</b> {information.name}
+                  {!information.fullName ? null : <li>
+                    <b>Full Name</b> {information.fullName}
                   </li>}
                   {!information.age ? null : <li>
                     <b>Age</b> {information.age} Years

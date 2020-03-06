@@ -3,9 +3,8 @@ import React from "react";
 function Progress(props){
   return (
     <div className="mi-progress">
-      <h6 className="mi-progress-title">{props.title}</h6>
+      <h3 className="mi-progress-title" style={{color:"yellow"}}>{props.title}</h3>
       <div className="mi-progress-inner">
-        <div className="mi-progress-percentage" style={{color:"yellow"}} >{`${props.percentage}`}</div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import FsLightbox from "fslightbox-react";
 
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
-  const {title, subtitle, imageUrl, largeImageUrl, url} = props.content;
+  const {title, subtitle, imageUrl, largeImageUrl, url, url2} = props.content;
   
   const handleToggler = (value) => {
     setToggler(value);
@@ -22,7 +22,12 @@ function Portfolio(props) {
           </li>}
           { url ? <li>
             <a rel="noopener noreferrer" target="_blank" href={url}>
-              <Icon.Link/>
+              <Icon.GitHub/>
+            </a>
+          </li> : null}
+          { url2 ? <li>
+            <a rel="noopener noreferrer" target="_blank" href={url2}>
+              <Icon.LogIn/>
             </a>
           </li> : null}
         </ul>

@@ -3,13 +3,18 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Zion Brown',
-    aboutContent: "As a Full Stack developer I use powerful technologies to develop intuitive code for applications/websites. I recently earned a certificate in Full Stack Development from UNC Charlotte, my initial education was on Javascript however it carried with it portable knowledge, I can research new technologies and languages on my own. My goal is to expand my learning on to other languages as well as maintaining continuous growth in the understanding of the ones I already know, I am proud of everything I create and I put my best into it, and my best will continue to improve.",
-    age: 20,
+    aboutContent: `
+    As a Full Stack developer I use powerful technologies to develop intuitive code for applications/websites. 
+    I am certified in Full Stack Development by UNC Charlotte, 
+    My goal is to expand my learning on to other languages as well as maintaining continuous growth in the
+    ones I already know. My plan to achieve this goal is to further my knowledge
+    in React to an advanced level first by working with best practices in my current and future projects, 
+    then begin working in Angular to have a good grasp
+    on the differences between the Javascript frameworks, before moving on to Java and Python in my journey
+    to become a well rounded, but proficient Developer. I am proud of everything I create and I put my best into it, 
+    and my best will continue to improve.`,
     phone: '704-968-2695',
-    nationality: 'American',
-    language: 'English',
     email: 'zabs95@gmail.com',
-    address: 'Charlotte, NC',
     freelanceStatus: '',
     socialLinks: {
       facebook: '',
@@ -42,23 +47,23 @@ const database = {
   skills: [
     {
       title: "Javascript",
-      value: "intermediate"
+      
     },
     {
-      title: "jQuery",
-      value: "intermediate"
+      title: "Cascading Style Sheets",
+      
     },
     {
       title: "ReactJS",
-      value: "intermediate"
+      
     },
     {
       title: "MongoDB with Mongoose",
-      value: "intermediate"
+     
     },
     {
-      title: "SQL with Sequelize",
-      value: "novice"
+      title: "NodeJS",
+    
     }
   ],
   portfolios: [
@@ -68,32 +73,37 @@ const database = {
       subtitle: "Mern Stack app. Form study groups with other people in your area.",
       imageUrl: "/images/grouplearn-menu.png",
       largeImageUrl: ["/images/grouplearn-menu.png"],
-      url: 'https://github.com/LardianGH/Grouplearn'
+      url: 'https://github.com/LardianGH/Grouplearn',
+      url2: 'https://grouplearn.herokuapp.com/'
     },
     {
       id: 2,
       title: "Starwars RPG",
-      subtitle: "An click based, extended universe Starwars themed, fighting RPG using jquery.",
+      subtitle: "A click based, extended universe Star Wars themed, fighting RPG using jquery.",
       imageUrl: "/images/starwars.png",
       largeImageUrl: ["/images/starwars.png"],
-      url: 'https://github.com/LardianGH/Starwars-RPG'
+      url: 'https://github.com/LardianGH/Starwars-RPG',
+      url2: 'https://lardiangh.github.io/Starwars-RPG/'
     },
     {
       id: 3,
       title: "Taria Bot",
-      subtitle: "A node inquirer text based assistant.",
+      subtitle: "A node inquirer text based assistant, deployment not possible but videos are available.",
       imageUrl: "/images/taria-menu.png",
       largeImageUrl: ["/images/taria-menu.png"],
       url: 'https://github.com/LardianGH/taria-bot'
     },
-    {
+   /* 
+   {
       id: 4,
       title: "Sound-Community",
       subtitle: "Mern Stack app in progress, An online community-driven soundboard.",
       imageUrl: "/images/sc-browse.png",
       largeImageUrl: ["/images/sc-browse.png"],
-      url: 'https://github.com/LardianGH/sound-community'
-    }
+      url: 'https://github.com/LardianGH/sound-community',
+      url2: 'https://sound-community.herokuapp.com/'
+    } 
+    */
   ],
   experience: {
     workingExperience: [
